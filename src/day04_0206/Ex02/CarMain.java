@@ -1,4 +1,4 @@
-package Ex02;
+package day04_0206.Ex02;
 
 public class CarMain {
     public static void main(String[] args) {

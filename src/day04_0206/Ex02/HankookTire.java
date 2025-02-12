@@ -1,6 +1,4 @@
-package Ex02;
-
-import Ex02.Tire;
+package day04_0206.Ex02;
 
 public class HankookTire implements Tire {
     @Override

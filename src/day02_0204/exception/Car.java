@@ -1,6 +1,6 @@
 package day02_0204.exception;
 
-import Ex02.KumhoTire;
+import day04_0206.Ex02.KumhoTire;
 
 public class Car {
     public Tire tire;
