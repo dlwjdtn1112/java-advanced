@@ -25,21 +25,12 @@ public class Unmodifift {
 //        list2.add("E");
 //        List<String> immutableList2 = List.copyOf(list2);
 
-
         //배열로부터 List 불변컬렉션으로 생성
         String array[] = {"A","B","C"};
         array[3] = "D";
         for(String s : array){
             System.out.println(s);
         }
-
-
-
-
-
-
-
-
 
     }
 }

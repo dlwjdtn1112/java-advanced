@@ -22,7 +22,7 @@ public class TreeSetEx {
         System.out.println("우리 반 일등 : "+ scores.floor(95));
 
 
-        System.out.println("===================================");
+        System.out.println("==================================");
 
         //검색
         NavigableSet<Integer> desScore = scores.descendingSet();
@@ -37,7 +37,7 @@ public class TreeSetEx {
         for(Integer s : rangeSet){
             System.out.println(s);
         }
-        System.out.println("===");
+        System.out.println("==================================");
 
         //범위 검색(80 <= score < 90)
         rangeSet = scores.subSet(80,true,90,false);

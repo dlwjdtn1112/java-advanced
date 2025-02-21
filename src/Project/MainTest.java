@@ -6,12 +6,12 @@ import java.util.Comparator;
 import java.util.List;
 
 
-//// 1. 파일 입출력 관련 (현재는 구현 생략)
-//
-//interface StudentIO {
-//    void saveStudentData(List<StudentDTO> students);
-//    void loadStudentData(List<StudentDTO> students);
-//}
+// 1. 파일 입출력 관련 (현재는 구현 생략)
+
+interface StudentIO {
+    void saveStudentData(List<StudentDTO> students);
+    void loadStudentData(List<StudentDTO> students);
+}
 
 
 // 2. 학생정보 입력용
@@ -134,7 +134,7 @@ class StudentManager
 
     @Override
     public void input(StudentDTO student) {
-        // 단순 추가
+        // 추가
         students.add(student);
     }
 
@@ -147,7 +147,7 @@ class StudentManager
             System.out.println("학생 정보가 없습니다.");
         } else {
             System.out.println(
-                    "학번: " + student.getSno()
+                      "학번: " + student.getSno()
                     + ", 이름: " + student.getName()
                     + ", 평균: " + student.getAverage()
                     + ", 학점: " + student.getGrade());
